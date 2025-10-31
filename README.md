@@ -2,35 +2,9 @@
 # 🌐 Finance Website 
 A simple, responsive website template for financial services.
 
-Your go-to solution for a clean and professional finance website.
-
-![License](https://img.shields.io/github/license/vishal02011/Finance-Website)
-![GitHub stars](https://img.shields.io/github/stars/vishal02011/Finance-Website?style=social)
-![GitHub forks](https://img.shields.io/github/forks/vishal02011/Finance-Website?style=social)
-![GitHub issues](https://img.shields.io/github/issues/vishal02011/Finance-Website)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/vishal02011/Finance-Website)
-![GitHub last commit](https://img.shields.io/github/last-commit/vishal02011/Finance-Website)
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-## 📋 Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Demo](#demo)
-- [Quick Start](#quick-start)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [FAQ](#faq)
-- [License](#license)
-- [Support](#support)
-- [Acknowledgments](#acknowledgments)
 
 ## About
 
