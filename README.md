@@ -24,8 +24,7 @@ Key technologies include HTML for structuring the content and CSS for styling an
 
 ## 🎬 Demo
 
-🔗 **Live Demo**: [https://vishal02011.github.io/Finance-Website/](https://vishal02011.github.io/Finance-Website/)
-
+🔗 **Live Demo**: [live demo](https://astonishing-zabaione-495211.netlify.app/)
 ### Screenshots
 ![Main Interface](screenshots/main-interface.png)
 *Main application interface showing key features*
