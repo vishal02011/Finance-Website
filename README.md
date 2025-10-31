@@ -3,9 +3,6 @@
 A simple, responsive website template for financial services.
 
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
 ## About
 
 This project is a basic HTML-based website template designed for financial services or businesses. It provides a clean and professional layout that can be easily customized to fit specific branding and content needs.  The template aims to offer a starting point for creating a functional and visually appealing website without requiring extensive coding knowledge.
@@ -24,14 +21,6 @@ Key technologies include HTML for structuring the content and CSS for styling an
 
 ## 🎬 Demo
 
-🔗 **Live Demo:
-you can view the live website here : [Live Demo](https://astonishing-zabaione-495211.netlify.app/)
-### Screenshots
-![Main Interface](screenshots/main-interface.png)
-*Main application interface showing key features*
-
-![Dashboard View](screenshots/dashboard.png)  
-*User dashboard with analytics and controls*
 
 ## 🚀 Quick Start
 
@@ -43,6 +32,8 @@ cd Finance-Website
 ```
 
 Open `index.html` in your browser.
+** Live Demo 🚀
+you can view the website here : [Live Demo](https://astonishing-zabaione-495211.netlify.app/)
 
 ## 📦 Installation
 
