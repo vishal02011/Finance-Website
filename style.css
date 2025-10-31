@@ -1,0 +1,268 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b132b;
+  color: white;
+  padding: 15px 60px;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #5bc0be;
+}
+
+.login-btn {
+  border: 1px solid #5bc0be;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('https://images.unsplash.com/photo-1565373676448-044b1dc868aa?auto=format&fit=crop&w=1600&q=80');
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.cta-btn {
+  background-color: #5bc0be;
+  color: #0b132b;
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: white;
+}
+
+/* FEATURES */
+.features {
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.features h2 {
+  color: #0b132b;
+  margin-bottom: 40px;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.feature-box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-6px);
+}
+
+.feature-box img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.feature-box h3 {
+  color: #0b132b;
+  margin-bottom: 10px;
+}
+
+/* ABOUT */
+.about {
+  padding: 60px 20px;
+  background-color: white;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about-content img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.about-content h2 {
+  color: #0b132b;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  color: #333;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0b132b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* LOGIN & SIGNUP */
+.login-body {
+  background-color: #eaf4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #0b132b;
+}
+
+.login-icon {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+.login-container label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.login-container button {
+  width: 100%;
+  background-color: #5bc0be;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-container button:hover {
+  background-color: #0b132b;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.signup-text a {
+  color: #5bc0be;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content img {
+    width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .feature-box {
+    width: 90%;
+  }
+}
