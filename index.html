@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FinVerse — Smart Global Transfers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="logo">FinVerse</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#calculator">Fee Calculator</a></li>
+          <li><a href="#converter">Converter</a></li>
+          <li><a href="#wallet">Wallet</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="login.html" class="btn-outline">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="hero" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <h1>Send Money Globally. Securely. Affordably.</h1>
+        <p class="lead">Fast transfers, transparent fees and multi-currency wallets — built to make cross-border payments simple.</p>
+        <a href="signup.html" class="btn-primary">Get Started</a>
+        <div class="hero-trust">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwdKjNb1KWeRufNd18iqj6qXs9b_FYOWKe3sSANs1bbaqNn8kPR7uR8dVG0XZP-QRRJMA&usqp=CAU" alt="partners" />
+          <span>Trusted in 120+ countries</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card-quick">
+          <h3>Quick transfer (UI only)</h3>
+          <label>From</label>
+          <select><option>USD</option><option>EUR</option><option>INR</option></select>
+          <label>To</label>
+          <select><option>INR</option><option>EUR</option><option>USD</option></select>
+          <label>Amount</label>
+          <input type="number" placeholder="100" />
+          <button class="btn-secondary">Preview (UI)</button>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section features">
+    <div class="container">
+      <h2 class="section-title">Core Features</h2>
+      <div class="grid-4">
+        <div class="feature">
+          <img src="https://images.goodreturns.in/img/2025/08/exchangerate1200-1754191248.jpg" alt="exchange" />
+          <h3>Currency Exchange</h3>
+          <p>Transparent, competitive exchange rates with clear fee breakdowns.</p>
+        </div>
+        <div class="feature">
+          <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&q=60" alt="transfer" />
+          <h3>Fast Transfers</h3>
+          <p>Optimized payment rails to move funds quickly across borders.</p>
+        </div>
+        <div class="feature">
+          <img src="https://www.payset.io/wp-content/uploads/2025/05/657746d37102e863ce6e534c_mc-wallets-min-1.jpg" alt="wallet" />
+          <h3>Multi-Currency Wallet</h3>
+          <p>Hold, convert and send money in multiple currencies from one place.</p>
+        </div>
+        <div class="feature">
+          <img src="https://img.freepik.com/premium-vector/24-hour-everyday-service-design-vector_667843-2.jpg" alt="support" />
+          <h3>24/7 Support</h3>
+          <p>Global support team available across channels (UI mock).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="calculator" class="section calculator">
+    <div class="container">
+      <h2 class="section-title">Fee Calculator (UI)</h2>
+      <div class="calc-grid">
+        <form class="calc-form">
+          <label>Send From</label>
+          <select><option>USD</option><option>EUR</option></select>
+
+          <label>Send To</label>
+          <select><option>INR</option><option>GBP</option></select>
+
+          <label>Amount</label>
+          <input type="number" placeholder="100" />
+
+          <label>Payment Method</label>
+          <select>
+            <option>Bank Transfer</option>
+            <option>Debit Card</option>
+            <option>Credit Card</option>
+          </select>
+
+          <label>Delivery Speed</label>
+          <select>
+            <option>Standard (2-3 days)</option>
+            <option>Fast (minutes)</option>
+          </select>
+
+          <button class="btn-primary">Calculate (UI)</button>
+        </form>
+
+        <div class="calc-result card">
+          <h3>Estimate</h3>
+          <p><strong>Fee:</strong> $2.50</p>
+          <p><strong>Exchange Rate:</strong> 1 USD = 82.50 INR</p>
+          <p><strong>Amount Received:</strong> ₹8,147.50</p>
+          <p class="muted">This is a UI-only preview — in a real app this updates dynamically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="converter" class="section converter">
+    <div class="container">
+      <h2 class="section-title">Currency Converter (UI)</h2>
+      <div class="converter-card card">
+        <div class="conv-row">
+          <input type="number" value="100" />
+          <select><option>USD</option><option>EUR</option><option>INR</option></select>
+          <span class="arrow">→</span>
+          <div class="conv-result">
+            <h2>₹8,250</h2>
+            <h3>Rate used: 1 USD = 82.5 INR</h3>
+          </div>
+        </div>
+        <p class="muted">Static demo — actual conversion requires an API (future scope).</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="wallet" class="section wallet">
+    <div class="container">
+      <h2 class="section-title">Wallet — Dashboard (UI)</h2>
+      <div class="wallet-grid">
+        <div class="wallet-card">
+          <h4>USD Wallet</h4>
+          <p class="balance">$1,254.42</p>
+          <p class="small">Recent: +$200 from client</p>
+        </div>
+        <div class="wallet-card">
+          <h4>EUR Wallet</h4>
+          <p class="balance">€980.10</p>
+          <p class="small">Recent: -€60 to vendor</p>
+        </div>
+        <div class="wallet-card">
+          <h4>INR Wallet</h4>
+          <p class="balance">₹48,250</p>
+          <p class="small">Recent: +₹2,000 from savings</p>
+        </div>
+        <div class="transactions card">
+          <h4>Recent Transactions</h4>
+          <ul>
+            <li>Sent $150 → ₹12,375 <span class="tx-muted">2 days ago</span></li>
+            <li>Received €300 <span class="tx-muted">4 days ago</span></li>
+            <li>Card payment: ₹2,500 <span class="tx-muted">6 days ago</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <h2 class="section-title">What users say</h2>
+      <div class="grid-3">
+        <div class="test-card card">
+          <p>"Fast and transparent. Saved me a lot on fees!"</p>
+          <div class="author"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFU4JkYpnSuD1DMqRb-_C9dk0VgWhNSf3ttw&s" alt=""><strong>Priya, India</strong></div>
+        </div>
+        <div class="test-card card">
+          <p>"Smooth experience and great support."</p>
+          <div class="author"><img src="https://images.rawpixel.com/image_png_social_portrait/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlM18zZF9jaGFyYWN0ZXJfaWxsaXVzdHJhdGlvbl9vZl90ZWVuX2JveV9faG9sZGluZ19lZWU4ZDA3OS01MGNmLTRkNWUtOTM1My04NWM3M2E0OGYyYjVfMS5wbmc.png" alt=""><strong>John, UK</strong></div>
+        </div>
+        <div class="test-card card">
+          <p>"The multi-currency wallet is super handy for travel."</p>
+          <div class="author"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyuD7qSyeHfkA7tHx-FbQEvyPsSWu-h4J0wg&s" alt=""><strong>Maria, Spain</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="blog" class="section resources">
+    <div class="container">
+      <h2 class="section-title">Resources</h2>
+      <div class="grid-3">
+        <div class="resource card">
+          <img src="https://cdn.prod.website-files.com/6732ede3c32a0faadbd4a3e8/686f66cc64527dbcb9273c25_Wire%20Transfer%20Payment%20Process-%20International.png" alt="">
+          <h4>How international transfers work</h4>
+          <p class="muted">A short guide for beginners (UI sample).</p>
+        </div>
+        <div class="resource card">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=60" alt="">
+          <h4>Exchange rates explained</h4>
+          <p class="muted">Understand the basic concepts behind FX rates.</p>
+        </div>
+        <div class="resource card">
+          <img src="https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=60" alt="">
+          <h4>Tips for safe online transfers</h4>
+          <p class="muted">Security best practices for users.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="faq" class="section faq">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="qa card">
+          <h4>How long do transfers take?</h4>
+          <p>Depending on the route and payment method: minutes to a few business days (UI placeholder).</p>
+        </div>
+        <div class="qa card">
+          <h4>What fees do you charge?</h4>
+          <p>Fees depend on payment method and amount. Our UI shows a sample breakdown in Fee Calculator.</p>
+        </div>
+        <div class="qa card">
+          <h4>Is my money safe?</h4>
+          <p>Yes — platform design highlights bank-level security and encryption (concept UI).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="section contact">
+    <div class="container contact-grid">
+      <div class="contact-left card">
+        <h3>Contact</h3>
+        <p>support@finverse.com • +91 98765 43210</p>
+        <p class="muted">Office hours: Mon-Fri 9:00 - 18:00</p>
+
+        <h4>Subscribe to updates</h4>
+        <form class="newsletter">
+          <input type="email" placeholder="Your email" />
+          <button class="btn-primary">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="contact-right card">
+        <h3>Send us a message</h3>
+        <form class="contact-form">
+          <input type="text" placeholder="Your name" />
+          <input type="email" placeholder="Your email" />
+          <textarea placeholder="Message" rows="5"></textarea>
+          <button class="btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  
+  <a class="chat-bubble" href="#contact" title="Contact support">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  </a>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© 2025 FinVerse</div>
+      <div class="footer-links">
+        <a href="#privacy">Privacy</a>
+        <a href="#terms">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
