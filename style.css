@@ -22,15 +22,24 @@ html,body { height: 100%; font-family: "Inter", "Poppins", system-ui, -apple-sys
   justify-content:space-between;
    padding:14px 0; }
    
-.logo { font-weight:700; font-size:1.35rem; margin-right:10px; }
+.logo { font-weight:700; font-size:1.35rem; margin-right:10px; } 
+
 .nav-links { list-style:none; display:flex; gap:18px; align-items:center; }
+
 .nav-links a { color:#cfeff0; text-decoration:none; padding:8px 6px; border-radius:6px; font-weight:500; }
+
 .nav-links a:hover { color:#2dd4bf; }
+
 .btn-outline {
   border:1px solid rgba(255,255,255,0.12);
-  padding:8px 12px; border-radius:8px; color:#cfeff0; text-decoration:none;
+  padding:8px 12px;
+   border-radius:8px;
+    color:#cfeff0;
+     text-decoration:none;
 }
+
 .btn-outline:hover { border-color: #2dd4bf; color:#2dd4bf; }
+
 
 
 .hero {
@@ -41,6 +50,7 @@ html,body { height: 100%; font-family: "Inter", "Poppins", system-ui, -apple-sys
 }
 
 .hero::before { content:""; position:absolute; inset:0; background:rgba(3,7,18,0.55); }
+
 .hero-inner { display:flex; gap:28px; align-items:center; justify-content:space-between; position:relative; z-index:5; }
 .hero-left { flex:1; color:#fff; }
 .hero-left h1 { font-size:2.6rem; line-height:1.05; margin-bottom:14px; font-weight:800; }
